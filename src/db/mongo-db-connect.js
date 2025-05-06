@@ -8,7 +8,7 @@ const username = process.env.MONGO_USER;
 const password = process.env.MONGO_PASSWORD;
 const clusterName = process.env.MONGO_CLUSTER_NAME;
 
-const connection_string = `mongodb+srv://${username}:${password}@${clusterName}.tr56kro.mongodb.net/learning?retryWrites=true&w=majority&appName=Learning`;
+const connection_string = `mongodb+srv://${username}:${password}@${clusterName}.llyjn6g.mongodb.net/learning?retryWrites=true&w=majority&appName=Cluster0`;
 
 export const connectDB = async () => {
   try {
